@@ -22,10 +22,10 @@ set diameter(diam){
 }
 
 set circumference(circ){
-  this.radius=circ/Math.PI*2;
+  this.radius=circ/(Math.PI*2);
 }
 
-set area(radius){
-  return this.area;
+set area(area){
+ this.radius=Math.sqrt(Math.PI/this.radius);
 }
 }
