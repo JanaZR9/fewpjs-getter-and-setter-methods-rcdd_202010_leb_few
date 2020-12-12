@@ -2,23 +2,23 @@
 
 class Circle{
   constructor(radius){
-    this._radius=radius;
+    this.radius=radius;
   }
 
 
 get diameter() {
-  return this._radius * 2;
+  return this.radius * 2;
 }
 
 get circumference() {
   return Math.PI*this.diameter;
 }
 get area(){
-  return Math.PI*this._radius**2;
+  return Math.PI*this.radius**2;
 }
 
 set diameter(radius){
-  return this.diameter;
+ this.radius= ;
 }
 
 set circumference(radius){
