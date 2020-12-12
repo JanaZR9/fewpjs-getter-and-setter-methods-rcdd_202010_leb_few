@@ -17,12 +17,12 @@ get area(){
   return Math.PI*this.radius**2;
 }
 
-set diameter(radius){
- this.radius= ;
+set diameter(diam){
+ this.radius=diam/2 ;
 }
 
-set circumference(radius){
-  return this.circumference;
+set circumference(circ){
+  this.radius=;
 }
 
 set area(radius){
