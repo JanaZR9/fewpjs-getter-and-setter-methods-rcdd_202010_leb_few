@@ -11,7 +11,7 @@ get diameter() {
 }
 
 get circumference() {
-  return 2*Math.PI*this.diameter;
+  return Math.PI*this.diameter;
 }
 get area(){
   return Math.PI*this._radius**2;
